@@ -5,58 +5,91 @@
   <meta charset="UTF-8">
   <title>About | Rey Diaz</title>
   <!-- Bootstrap link -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" />
 </head>
 
 <body>
 
   <header id="masthead">
+
+    <!--Navbar-->
+<nav class="navbar navbar-light light-blue lighten-4">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Navbar</a>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+      aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+          class="fas fa-bars fa-1x"></i></span></button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+      <!-- Links -->
+  
+    </div>
+    <!-- Collapsible content -->
+  
+  </nav>
+  <!--/.Navbar-->
+<!-- 
+  <nav class="navbar navbar-light light-blue lighten-4">
+    
     <div class="container">
 
-      <!-- Nav -->
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-              <a href="index.html" id="logo">Rey Diaz</a>
-              <nav>
-                  <a href="index.html">About</a>
-                  <a href="portfolio.html">Portfolio</a>
-                  <a href="contact.html">Contact</a>
-                </nav>
-          </div>
-        </div>
-      </div>
+      <div class="row">
+                <div class="col-md col-xs-12">
+                    <a href="index.html" id="logo">Rey Diaz</a>
+                </div>
+                <div class="col-md col-xs-12">
+                    <a href="index.html">About</a>
+                </div>
+
+                <div class="col-md col-xs-12">
+                    <a href="portfolio.html">Portfolio</a>
+                </div>
+
+                <div class="col-md col-xs-12">
+                    <a href="contact.html">Contact</a>
+                </div>
+              </div>
     </div>
+              
+  </nav>
+ -->
+    
   </header>
 
   <div id="main-container" class="container">
     <section class="main-section">
-        <!-- new row -->
-      <div class="row"> 
-        <div class="col-md-6 col-xs-12">
             <h1>About Me</h1>
-        
-        <div class="col-md-6 col-xs-12">
-            <img src="assets/images/rey peace.jpg" class="auth-image" alt="Rey">
-        </div>
 
-        <div class="col-md-50% col-xs-12">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
+            <img src="assets/images/rey peace.jpg" class="col-md-5 auth-image img-fluid float-left" alt="Rey">
+  
+            <p class="col-md col-xs-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
       
-            <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+            <p class="col-md col-xs-12">Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
       
-            <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-      
-        </div>
-            
-        </div>
-      </div>
-      
+            <p class="col-md col-xs-12">Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
     </section>
 
   </div>
-
+</div>
   <footer>
     <div class="container">
       Copyright &copy; 

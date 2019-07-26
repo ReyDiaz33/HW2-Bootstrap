@@ -11,6 +11,13 @@ body {
   margin: 0;
 }
 
+.fa-1x {
+  font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+  cursor: pointer;
+  }
+
 /* sticky footer styling */
 
 /* https://css-tricks.com/snippets/css/sticky-footer/ */
@@ -237,3 +244,5 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
